@@ -1,0 +1,14 @@
+nav{
+    text-align: center;
+    background: #fff !important;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    top: 0;
+    left: 0;
+}
+header{
+    height: 66px;
+    background: transparent;
+}

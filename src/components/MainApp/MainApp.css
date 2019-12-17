@@ -1,0 +1,29 @@
+.user{
+    border: 1px solid #8bc34a;
+    flex-grow: 100;
+    width: 230px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.user p{
+    margin: 10px 0;
+}
+.homePage{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px auto;
+    width: 85%;
+    justify-content: space-between;
+    padding: 10px;
+}
+.name{
+    background: #8bc34a;
+    color: #fff;
+    padding: 8px;
+}
+@media only screen and (max-width: 800px){
+    .homePage{
+        width: 94%;
+    }
+}

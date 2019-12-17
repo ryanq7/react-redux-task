@@ -1,0 +1,62 @@
+.home{
+    min-height: 100vh;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 36px;
+}
+.home h1{
+    background: #ee0f81;
+    color: #fff;
+    display: inline-block ;
+    padding: 6px 10px;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 36px;
+    width: 54%;
+}
+.logo{
+    height: 198px;
+    width: 150px;
+    background: url('../../assets/amdoc-logo.png')no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.footer{
+    text-align: center;
+}
+.home button{
+    background: #ee0f81;
+    background: linear-gradient(to right,#ffa402,#ff5661,#ff279c);
+    font-size: 18px;
+    padding: 11px 36px;
+    border-radius: 14px;
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.4);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+}
+@media only screen and (max-width:600px){
+    .home h1{
+        font-size: 28px;
+        width: 100%;
+    }
+    .home button{
+        font-size: 16px;
+        padding: 8px;
+        border-radius: 6px;
+    }
+    .home{
+        align-items: center;
+    }
+    .home .triangle{
+        width: 204px;
+    }
+}
